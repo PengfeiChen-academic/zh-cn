@@ -4,6 +4,9 @@ $text-primary-color: #ff3860;
 
 
 
+
+
+
 .home-section {
   background: #f7f7f7;
 }
@@ -13,14 +16,14 @@ $text-primary-color: #ff3860;
 
 
 
-.wg-hero {
-  .home-section-bg {
-    background-image: linear-gradient(90deg, #004ba0, #1976d2);
-  }
-  .hero-title, .hero-lead {
-    color: white;
-  }
-}
+//.wg-hero {
+//  .home-section-bg {
+//    background-image: linear-gradient(90deg, #004ba0, #1976d2);
+//  }
+//  .hero-title, .hero-lead {
+//    color: white;
+//  }
+//}
 
 
 
@@ -97,13 +100,88 @@ $text-primary-color: #ff3860;
 }
 
 
+/*电脑端展示*/
+@media (min-width: 780px) {
+  .only-display-on-cellphone {
+    display: none;
+  }
+  .only-display-on-pc {
+    display: block;
+  }
+  .left-and-right-2-columns {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding-top: 1rem;
+    .left-sidebar-part {
+      position: fixed;
+      width: 250px;
+      // height: 100vh;
+    }
+
+    .right-content-part {
+      margin-left: 250px;
+      overflow-y: auto;
+      padding-left: 3rem;
+
+
+      .home-section {
+        padding: 6rem 1rem;
+        .container {
+          .section-heading.text-center {
+            text-align: left !important;
+          }
+        }
+
+      }
+
+
+    }
+  }
+
+
+
+  #about.home-section {
+    padding: 2rem 0 0 0;
+  }
+  #hero.home-section {
+    background-color: unset;
+    padding: 2rem 0 0 0;
+
+    .hero-welcome-banner {
+      background-image: linear-gradient(90deg, #004ba0, #1976d2);
+      padding: 3rem;
+    }
+
+    .home-section-bg {
+      background-image: none;
+    }
+    .hero-title, .hero-lead {
+      color: white;
+    }
+  }
+}
+
+
+
 // 手机
 @media (max-width: 780px) {
 
-  .wg-about {
-    // h1 {
-    //  text-align: center;
-    //}
+  .only-display-on-cellphone {
+    display: block;
+  }
+  .only-display-on-pc {
+    display: none; width: 0;
+  }
+
+
+
+  .wg-hero {
+    .home-section-bg {
+      background-image: linear-gradient(90deg, #004ba0, #1976d2);
+    }
+    .hero-title, .hero-lead {
+      color: white;
+    }
   }
   .research-list-wrap {
     grid-template-columns: 1fr !important;

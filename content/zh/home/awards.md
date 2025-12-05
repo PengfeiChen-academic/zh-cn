@@ -10,7 +10,10 @@ weight: 40
 
 title: Awards
 
-contact_img:  
+contact_img:
+
+design:
+  columns: '1'  
  
 ---
 

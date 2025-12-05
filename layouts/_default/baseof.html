@@ -54,7 +54,19 @@
       </div>
     {{ end }}
 
-    {{ block "main" . }}{{ end }}
+
+    <div class="left-and-right-2-columns ">
+      <!-- 左侧固定栏 -->
+      <aside class="left-sidebar-part only-display-on-pc">
+        {{ partial "profile" }}
+      </aside>
+      <!-- 右侧可滚动内容 -->
+      <main class="right-content-part">
+        {{ block "main" . }}{{ end }}
+      </main>
+    </div>
+
+
   </div>
 
   <div class="page-footer">

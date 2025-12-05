@@ -10,7 +10,11 @@ weight: 70
 
 title: Oral Presentations
 
-contact_img:  
+contact_img:
+
+
+design:
+  columns: '1' 
  
 ---
 

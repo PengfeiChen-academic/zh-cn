@@ -29,7 +29,10 @@
     }
   </style>
   <div class="col-12  ">
-    <div id="profile">
+
+
+    {{/*  BACKUP
+    <div id="profile-backup">
 
       {{ if site.Params.features.avatar.gravatar }}
       <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=270')" alt="{{$person_page.Title}}">
@@ -90,6 +93,15 @@
       </ul>
 
     </div>
+    */}}
+
+
+    {{/*这一块内容只在手机小屏时展示，电脑端在左栏固定展示*/}}
+    <div class="only-display-on-cellphone">
+      {{partial "profile" }}
+    </div>
+
+
   </div>
   <div class="col-12  ">
 

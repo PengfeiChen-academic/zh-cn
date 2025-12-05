@@ -12,7 +12,12 @@ weight: 80
 
 title: Academic Services
 
-contact_img:  
+contact_img:
+
+
+design:
+  columns: '1' 
+ 
  
 ---
 * Guest Editor for “Optimization Methods for Nanogenerator Design”, a Special issue of Electronics (ISSN 2079-9292), MDPI.

@@ -10,7 +10,10 @@ weight: 60
 
 title: Book Chapters
 
-contact_img:  
+contact_img:
+
+design:
+  columns: '1' 
  
 ---
 
