@@ -1,6 +1,6 @@
 full_publications:
 
-  - title: "Scalable, Lightweight, and Waterproof Unitary Fabric Triboelectric Nanogenerator for Bio‐and Natural Mechanical Energy Harvesting and Self‐Powered Sensing"
+ - title: "Scalable, Lightweight, and Waterproof Unitary Fabric Triboelectric Nanogenerator for Bio‐and Natural Mechanical Energy Harvesting and Self‐Powered Sensing"
     link: "https://doi.org/10.1002/adfm.74388"
     authors: "**P. Chen**, W.Peng, W. Yang, S. Wang, Y. Wu, S. Chen, Y. Huang, C. Tsai, H. Lu, X. Wang, Y. Lai"
     journal: "Adv. Funct. Mater."
@@ -8,10 +8,10 @@ full_publications:
     id: "e74388"
     extra_links:
       - name: pdf
-        url: https://nanoscience.engr.wisc.edu/wp-content/uploads/2025/07/Advanced-Materials-2025-Wang-A-Hydro%E2%80%90Expansive-and-Degradable-Biomaterial-Enabling-Shape-Recovery-of-Film%E2%80%90Based.pdf
+        url: https://advanced-onlinelibrary-wiley-com.ezproxy.library.wisc.edu/doi/pdfdirect/10.1002/adfm.74388
       - name: support information
-        url: https://nanoscience.engr.wisc.edu/wp-content/uploads/2025/07/Advanced-Materials-2025-Wang-A-Hydro%E2%80%90Expansive-and-Degradable-Biomaterial-Enabling-Shape-Recovery-of-Film%E2%80%90Based-suppmat.docx
-
+        url: https://advanced-onlinelibrary-wiley-com.ezproxy.library.wisc.edu/action/downloadSupplement?doi=10.1002%2Fadfm.74388&file=adfm74388-sup-0001-SuppMat.docx
+       
   - title: "A Hydro-Expansive and Degradable Biomaterial Enabling Shape Recovery of Film-Based Devices in Biofluids"
     link: "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202510140"
     authors: "R. Wang, J. Sui, **P. Chen**, Z. Silva-Pedraza, J. Bontekoe, J. Kim, P. Li, F. Pan, E. Schmuck, S. Osaki, B. Liu, X. Wang"
