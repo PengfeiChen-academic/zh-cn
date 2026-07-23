@@ -60,7 +60,7 @@ superuser: true
 
 ---
 
-**Pengfei Chen** is a Postdoctoral Research associate in the Department of Materials Science and Engineering at the University of Wisconsin-Madison, U.S.A (advised by Prof. Xudong Wang). His research focuses on advanced micro/nano energy harvesting technologies based on nanogenerators, for self-powered systems in marine IoT, wearable electronics, and smart human-machine interface. So far, he has published over 40 articles in prestigious journals, such as Science Advances, Energy & Environmental Science, Advanced Materials, and Advanced Energy Materials_, two highly cited paper in ESI, (H-index 29, >3,000 citations). His work bridges fundamental materials & mechanism innovation and real-world applications.  
+**Pengfei Chen** is a Postdoctoral Research associate in the Department of Materials Science and Engineering at the University of Wisconsin-Madison, U.S.A (advised by Prof. Xudong Wang). His research focuses on advanced micro/nano energy harvesting technologies based on nanogenerators, for self-powered systems in marine IoT, wearable electronics, and smart human-machine interface. So far, he has published over 40 articles in prestigious journals, such as **Science Advances**, **Energy & Environmental Science**, **Advanced Materials**, and **Advanced Energy Materials**, two highly cited paper in ESI, (H-index **29**, >**3,000 **citations). His work bridges fundamental materials & mechanism innovation and real-world applications.  
 
 {{< image src="images/r1.jpg" style="width: 60%; margin: 0 auto;" >}}
 
